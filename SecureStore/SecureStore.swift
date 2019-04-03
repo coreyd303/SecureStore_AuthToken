@@ -30,6 +30,7 @@ import Foundation
 import Security
 
 public struct SecureStore {
+
   // MARK: - Properties
 
   let secureStoreQueryable: SecureStoreQueryable
@@ -108,7 +109,7 @@ public struct SecureStore {
     }
   }
   
-  public func removeValue(for userAccount: String) throws {
+  public func removeAuthToken(for userAccount: String) throws {
     var query = secureStoreQueryable.query
     query[String(kSecAttrAccount)] = userAccount
 
@@ -118,7 +119,7 @@ public struct SecureStore {
     }
   }
   
-  public func removeAllValues() throws {
+  public func removeAll() throws {
     let query = secureStoreQueryable.query
 
     let status = SecItemDelete(query as CFDictionary)
