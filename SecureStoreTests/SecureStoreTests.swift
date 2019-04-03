@@ -42,7 +42,7 @@ class SecureStoreTests: XCTestCase {
   }
 
   override func tearDown() {
-    try? secureStoreWithAuthToken.removeAllValues()
+    try? secureStoreWithAuthToken.removeAll()
 
     super.tearDown()
   }
@@ -84,7 +84,7 @@ class SecureStoreTests: XCTestCase {
   func testRemoveAuthToken() {
     do {
       try secureStoreWithAuthToken.setAuthToken(stubAuthToken, for: "authToken")
-      try secureStoreWithAuthToken.removeValue(for: "authToken")
+      try secureStoreWithAuthToken.removeAuthToken(for: "authToken")
 
       XCTAssertNil(try secureStoreWithAuthToken.getAuthToken(for: "authToken"))
     } catch (let error) {
@@ -99,7 +99,7 @@ class SecureStoreTests: XCTestCase {
       try secureStoreWithAuthToken.setAuthToken(stubAuthToken, for: "authToken")
       let token2 = AuthToken(token: "ANOTHER", expires: 5678909)
       try secureStoreWithAuthToken.setAuthToken(token2, for: "authToken2")
-      try secureStoreWithAuthToken.removeAllValues()
+      try secureStoreWithAuthToken.removeAll()
 
       XCTAssertNil(try secureStoreWithAuthToken.getAuthToken(for: "authToken"))
       XCTAssertNil(try secureStoreWithAuthToken.getAuthToken(for: "authToken2"))
