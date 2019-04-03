@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0F8D16B225434A90090A010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D16A225434A90090A010 /* AppDelegate.swift */; };
-		E0F8D16D225434A90090A010 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D16C225434A90090A010 /* DocumentBrowserViewController.swift */; };
-		E0F8D16F225434A90090A010 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D16E225434A90090A010 /* DocumentViewController.swift */; };
-		E0F8D171225434A90090A010 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D170225434A90090A010 /* Document.swift */; };
-		E0F8D174225434A90090A010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F8D172225434A90090A010 /* Main.storyboard */; };
-		E0F8D176225434AB0090A010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F8D175225434AB0090A010 /* Assets.xcassets */; };
-		E0F8D179225434AB0090A010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F8D177225434AB0090A010 /* LaunchScreen.storyboard */; };
 		E0F8D184225434AB0090A010 /* TokenStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D183225434AB0090A010 /* TokenStoreTests.swift */; };
+		E0F8D19A225436C20090A010 /* SecureStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D194225436C20090A010 /* SecureStoreError.swift */; };
+		E0F8D19B225436C20090A010 /* InternetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D195225436C20090A010 /* InternetProtocol.swift */; };
+		E0F8D19C225436C20090A010 /* SecureStoreQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D196225436C20090A010 /* SecureStoreQueryable.swift */; };
+		E0F8D19D225436C20090A010 /* InternetAuthenticationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D197225436C20090A010 /* InternetAuthenticationType.swift */; };
+		E0F8D19E225436C20090A010 /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D198225436C20090A010 /* AuthToken.swift */; };
+		E0F8D19F225436C20090A010 /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D199225436C20090A010 /* SecureStore.swift */; };
+		E0F8D1A1225437980090A010 /* TokenStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F8D1912254360F0090A010 /* TokenStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F8D1A82254388F0090A010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F8D1A22254388E0090A010 /* Main.storyboard */; };
+		E0F8D1A92254388F0090A010 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0F8D1A32254388E0090A010 /* Info.plist */; };
+		E0F8D1AA2254388F0090A010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D1A42254388F0090A010 /* ViewController.swift */; };
+		E0F8D1AB2254388F0090A010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F8D1A52254388F0090A010 /* LaunchScreen.storyboard */; };
+		E0F8D1AC2254388F0090A010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F8D1A62254388F0090A010 /* AppDelegate.swift */; };
+		E0F8D1AD2254388F0090A010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F8D1A72254388F0090A010 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +35,24 @@
 
 /* Begin PBXFileReference section */
 		E0F8D167225434A90090A010 /* TokenStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0F8D16A225434A90090A010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0F8D16C225434A90090A010 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
-		E0F8D16E225434A90090A010 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		E0F8D170225434A90090A010 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		E0F8D173225434A90090A010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E0F8D175225434AB0090A010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E0F8D178225434AB0090A010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0F8D17A225434AB0090A010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0F8D17F225434AB0090A010 /* TokenStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F8D183225434AB0090A010 /* TokenStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStoreTests.swift; sourceTree = "<group>"; };
 		E0F8D185225434AB0090A010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F8D1912254360F0090A010 /* TokenStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenStore.h; sourceTree = "<group>"; };
+		E0F8D193225436C10090A010 /* TokenStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TokenStore-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0F8D194225436C20090A010 /* SecureStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreError.swift; sourceTree = "<group>"; };
+		E0F8D195225436C20090A010 /* InternetProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetProtocol.swift; sourceTree = "<group>"; };
+		E0F8D196225436C20090A010 /* SecureStoreQueryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStoreQueryable.swift; sourceTree = "<group>"; };
+		E0F8D197225436C20090A010 /* InternetAuthenticationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetAuthenticationType.swift; sourceTree = "<group>"; };
+		E0F8D198225436C20090A010 /* AuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
+		E0F8D199225436C20090A010 /* SecureStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		E0F8D1A22254388E0090A010 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E0F8D1A32254388E0090A010 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F8D1A42254388F0090A010 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0F8D1A52254388F0090A010 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0F8D1A62254388F0090A010 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0F8D1A72254388F0090A010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +78,7 @@
 			children = (
 				E0F8D169225434A90090A010 /* TokenStore */,
 				E0F8D182225434AB0090A010 /* TokenStoreTests */,
+				E0F8D18E225434D90090A010 /* TestHost */,
 				E0F8D168225434A90090A010 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,14 +95,8 @@
 		E0F8D169225434A90090A010 /* TokenStore */ = {
 			isa = PBXGroup;
 			children = (
-				E0F8D16A225434A90090A010 /* AppDelegate.swift */,
-				E0F8D16C225434A90090A010 /* DocumentBrowserViewController.swift */,
-				E0F8D16E225434A90090A010 /* DocumentViewController.swift */,
-				E0F8D170225434A90090A010 /* Document.swift */,
-				E0F8D172225434A90090A010 /* Main.storyboard */,
-				E0F8D175225434AB0090A010 /* Assets.xcassets */,
-				E0F8D177225434AB0090A010 /* LaunchScreen.storyboard */,
-				E0F8D17A225434AB0090A010 /* Info.plist */,
+				E0F8D1922254365E0090A010 /* Sources */,
+				E0F8D18F225435BB0090A010 /* Resources */,
 			);
 			path = TokenStore;
 			sourceTree = "<group>";
@@ -102,13 +110,61 @@
 			path = TokenStoreTests;
 			sourceTree = "<group>";
 		};
+		E0F8D18E225434D90090A010 /* TestHost */ = {
+			isa = PBXGroup;
+			children = (
+				E0F8D1A62254388F0090A010 /* AppDelegate.swift */,
+				E0F8D1A72254388F0090A010 /* Assets.xcassets */,
+				E0F8D1A32254388E0090A010 /* Info.plist */,
+				E0F8D1A52254388F0090A010 /* LaunchScreen.storyboard */,
+				E0F8D1A22254388E0090A010 /* Main.storyboard */,
+				E0F8D1A42254388F0090A010 /* ViewController.swift */,
+			);
+			path = TestHost;
+			sourceTree = "<group>";
+		};
+		E0F8D18F225435BB0090A010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0F8D193225436C10090A010 /* TokenStore-Bridging-Header.h */,
+				E0F8D1912254360F0090A010 /* TokenStore.h */,
+				E0F8D17A225434AB0090A010 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0F8D1922254365E0090A010 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E0F8D198225436C20090A010 /* AuthToken.swift */,
+				E0F8D197225436C20090A010 /* InternetAuthenticationType.swift */,
+				E0F8D195225436C20090A010 /* InternetProtocol.swift */,
+				E0F8D199225436C20090A010 /* SecureStore.swift */,
+				E0F8D194225436C20090A010 /* SecureStoreError.swift */,
+				E0F8D196225436C20090A010 /* SecureStoreQueryable.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E0F8D1A02254378E0090A010 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F8D1A1225437980090A010 /* TokenStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E0F8D166225434A90090A010 /* TokenStore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F8D188225434AB0090A010 /* Build configuration list for PBXNativeTarget "TokenStore" */;
 			buildPhases = (
+				E0F8D1A02254378E0090A010 /* Headers */,
 				E0F8D163225434A90090A010 /* Sources */,
 				E0F8D164225434A90090A010 /* Frameworks */,
 				E0F8D165225434A90090A010 /* Resources */,
@@ -152,6 +208,7 @@
 				TargetAttributes = {
 					E0F8D166225434A90090A010 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					E0F8D17E225434AB0090A010 = {
 						CreatedOnToolsVersion = 10.2;
@@ -183,9 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F8D179225434AB0090A010 /* LaunchScreen.storyboard in Resources */,
-				E0F8D176225434AB0090A010 /* Assets.xcassets in Resources */,
-				E0F8D174225434A90090A010 /* Main.storyboard in Resources */,
+				E0F8D1AB2254388F0090A010 /* LaunchScreen.storyboard in Resources */,
+				E0F8D1A92254388F0090A010 /* Info.plist in Resources */,
+				E0F8D1AD2254388F0090A010 /* Assets.xcassets in Resources */,
+				E0F8D1A82254388F0090A010 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F8D171225434A90090A010 /* Document.swift in Sources */,
-				E0F8D16F225434A90090A010 /* DocumentViewController.swift in Sources */,
-				E0F8D16D225434A90090A010 /* DocumentBrowserViewController.swift in Sources */,
-				E0F8D16B225434A90090A010 /* AppDelegate.swift in Sources */,
+				E0F8D1AC2254388F0090A010 /* AppDelegate.swift in Sources */,
+				E0F8D19D225436C20090A010 /* InternetAuthenticationType.swift in Sources */,
+				E0F8D19B225436C20090A010 /* InternetProtocol.swift in Sources */,
+				E0F8D19F225436C20090A010 /* SecureStore.swift in Sources */,
+				E0F8D19A225436C20090A010 /* SecureStoreError.swift in Sources */,
+				E0F8D1AA2254388F0090A010 /* ViewController.swift in Sources */,
+				E0F8D19E225436C20090A010 /* AuthToken.swift in Sources */,
+				E0F8D19C225436C20090A010 /* SecureStoreQueryable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,25 +289,6 @@
 			targetProxy = E0F8D180225434AB0090A010 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E0F8D172225434A90090A010 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0F8D173225434A90090A010 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E0F8D177225434AB0090A010 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0F8D178225434AB0090A010 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E0F8D186225434AB0090A010 /* Debug */ = {
@@ -368,15 +411,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E78HRRWP93;
-				INFOPLIST_FILE = TokenStore/Info.plist;
+				INFOPLIST_FILE = TokenStore/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pond5.TokenStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TokenStore/Resources/TokenStore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,15 +432,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E78HRRWP93;
-				INFOPLIST_FILE = TokenStore/Info.plist;
+				INFOPLIST_FILE = TokenStore/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pond5.TokenStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TokenStore/Resources/TokenStore-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
