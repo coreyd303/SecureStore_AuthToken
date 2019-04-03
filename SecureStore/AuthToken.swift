@@ -29,14 +29,14 @@
 import Foundation
 
 public struct AuthToken: Codable, Equatable {
-  let token: String
-  let expires: Int
+  public let token: String
+  public let expires: Int
 
-  enum CodingKeys: String, CodingKey {
+  public enum CodingKeys: String, CodingKey {
     case token, expires
   }
 
-  init(token: String, expires: Int) {
+  public init(token: String, expires: Int) {
     self.token = token
     self.expires = expires
   }
