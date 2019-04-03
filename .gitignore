@@ -1,0 +1,7 @@
+# Ignore Carthage installed files
+Carthage/
+Carthage/Build
+
+# ensure that Cartfile and .resolved are not ignored
+!Cartfile
+!Cartfile.resolved
