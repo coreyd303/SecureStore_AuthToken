@@ -29,7 +29,14 @@
 import Foundation
 import Security
 
-public struct SecureStore {
+public protocol SecureStore {
+  func setAuthToken(_ authToken: AuthToken, for userAccount: String) throws
+  func getAuthToken(for userAccount: String) throws -> AuthToken?
+  func removeAuthToken(for userAccount: String) throws
+  func removeAll() throws
+}
+
+public struct SecureStoreImplementation: SecureStore {
 
   // MARK: - Properties
 

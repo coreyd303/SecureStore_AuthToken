@@ -37,7 +37,7 @@ class SecureStoreTests: XCTestCase {
   override func setUp() {
     super.setUp()
     let authTokenQueryable = AuthTokenQueryable(service: "someService")
-    secureStoreWithAuthToken = SecureStore(secureStoreQueryable: authTokenQueryable)
+    secureStoreWithAuthToken = SecureStoreImplementation(secureStoreQueryable: authTokenQueryable)
     stubAuthToken = AuthToken(token: "TOKEN", expires: 123456)
   }
 
