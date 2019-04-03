@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0F8D166225434A90090A010"
-               BuildableName = "TokenStore.app"
-               BlueprintName = "TokenStore"
-               ReferencedContainer = "container:TokenStore.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0F8D17E225434AB0090A010"
-               BuildableName = "TokenStoreTests.xctest"
-               BlueprintName = "TokenStoreTests"
-               ReferencedContainer = "container:TokenStore.xcodeproj">
+               BlueprintIdentifier = "1E105502218DFDB80032C4CA"
+               BuildableName = "SecureStore.framework"
+               BlueprintName = "SecureStore"
+               ReferencedContainer = "container:SecureStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0F8D166225434A90090A010"
-            BuildableName = "TokenStore.app"
-            BlueprintName = "TokenStore"
-            ReferencedContainer = "container:TokenStore.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -65,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0F8D166225434A90090A010"
-            BuildableName = "TokenStore.app"
-            BlueprintName = "TokenStore"
-            ReferencedContainer = "container:TokenStore.xcodeproj">
+            BlueprintIdentifier = "1E105502218DFDB80032C4CA"
+            BuildableName = "SecureStore.framework"
+            BlueprintName = "SecureStore"
+            ReferencedContainer = "container:SecureStore.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -84,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0F8D166225434A90090A010"
-            BuildableName = "TokenStore.app"
-            BlueprintName = "TokenStore"
-            ReferencedContainer = "container:TokenStore.xcodeproj">
+            BlueprintIdentifier = "1E105502218DFDB80032C4CA"
+            BuildableName = "SecureStore.framework"
+            BlueprintName = "SecureStore"
+            ReferencedContainer = "container:SecureStore.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
